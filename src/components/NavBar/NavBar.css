@@ -1,0 +1,10 @@
+.navbar{
+    background-color: #111111;
+    color: white;
+    height: 80px;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 30px;
+}
