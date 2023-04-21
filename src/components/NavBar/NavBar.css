@@ -4,6 +4,12 @@
     height: 80px;
 }
 
+.collapse{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
 .navbar-brand img {
     width: 100px;
     height: 30px;

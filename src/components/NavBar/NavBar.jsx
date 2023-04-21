@@ -1,3 +1,4 @@
+import { CartWidget } from "../CartWidget/CartWidget"
 import "./NavBar.css"
 export const NavBar = () => {
 
@@ -10,16 +11,9 @@ export const NavBar = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul className="navbar-nav">
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Destacados
-                                </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
+                        <ul className="navbar-nav" >
+                            <li className="nav-item">
+                                <a className="nav-link" aria-current="page" href="#">Destacados</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -68,16 +62,14 @@ export const NavBar = () => {
                                     <li><a className="dropdown-item" href="#">Otros</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#">Oferta</a>
-                            </li>
                             
-                            <button type="button" className="btn btn-dark compra" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                                <i class="fa-solid fa-cart-shopping"></i>
-                            </button>
+                            
+                            
                             
                         </ul>
+                        
                     </div>
+                    <CartWidget />
                 </div>
             </nav>
         </header>
