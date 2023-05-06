@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "nombre": "Fundamental interactive structure",
+        "precio": 2613,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+        "stock": 45,
+        "category": "ropa"
+    },
+    {
+        "id": 2,
+        "nombre": "Innovative fault-tolerant interface",
+        "precio": 1043,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.",
+        "stock": 72,
+        "category": "accesorios"
+    },
+    {
+        "id": 3,
+        "nombre": "Up-sized secondary orchestration",
+        "precio": 8199,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+        "stock": 82,
+        "category": "accesorios"
+    },
+    {
+        "id": 4,
+        "nombre": "Programmable holistic instruction set",
+        "precio": 4392,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "stock": 69,
+        "category": "accesorios"
+    },
+    {
+        "id": 5,
+        "nombre": "Re-engineered static framework",
+        "precio": 8547,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
+        "stock": 28,
+        "category": "ropa"
+    },
+    {
+        "id": 6,
+        "nombre": "Customizable impactful collaboration",
+        "precio": 1879,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "stock": 12,
+        "category": "arte"
+    },
+    {
+        "id": 7,
+        "nombre": "Ergonomic holistic frame",
+        "precio": 7925,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+        "stock": 34,
+        "category": "ropa"
+    },
+    {
+        "id": 8,
+        "nombre": "Extended 4th generation policy",
+        "precio": 9473,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+        "stock": 12,
+        "category": "ropa"
+    },
+    {
+        "id": 9,
+        "nombre": "Persevering uniform parallelism",
+        "precio": 3581,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+        "stock": 63,
+        "category": "coleccionables"
+    },
+    {
+        "id": 10,
+        "nombre": "Integrated scalable orchestration",
+        "precio": 2205,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "stock": 10,
+        "category": "accesorios"
+    },
+    {
+        "id": 11,
+        "nombre": "Cross-group actuating flexibility",
+        "precio": 2231,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "stock": 56,
+        "category": "coleccionables"
+    },
+    {
+        "id": 12,
+        "nombre": "Self-enabling clear-thinking service-desk",
+        "precio": 9855,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci. Nullam molestie nibh in lectus.",
+        "stock": 57,
+        "category": "coleccionables"
+    },
+    {
+        "id": 13,
+        "nombre": "Innovative fresh-thinking contingency",
+        "precio": 6948,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+        "stock": 47,
+        "category": "coleccionables"
+    },
+    {
+        "id": 14,
+        "nombre": "Networked even-keeled initiative",
+        "precio": 3255,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+        "stock": 72,
+        "category": "coleccionables"
+    },
+    {
+        "id": 15,
+        "nombre": "Optimized demand-driven artificial intelligence",
+        "precio": 6421,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "stock": 83,
+        "category": "coleccionables"
+    },
+    {
+        "id": 16,
+        "nombre": "Ameliorated leading edge moratorium",
+        "precio": 3935,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.",
+        "stock": 27,
+        "category": "accesorios"
+    },
+    {
+        "id": 17,
+        "nombre": "Vision-oriented bottom-line matrices",
+        "precio": 8592,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "stock": 7,
+        "category": "accesorios"
+    },
+    {
+        "id": 18,
+        "nombre": "Optimized bifurcated standardization",
+        "precio": 6557,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+        "stock": 48,
+        "category": "ropa"
+    },
+    {
+        "id": 19,
+        "nombre": "Ameliorated logistical architecture",
+        "precio": 3051,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+        "stock": 96,
+        "category": "coleccionables"
+    },
+    {
+        "id": 20,
+        "nombre": "Reactive client-driven adapter",
+        "precio": 9170,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Vestibulum ac est lacinia nisi venenatis tristique. Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue. Aliquam erat volutpat.",
+        "stock": 8,
+        "category": "ropa"
+    },
+    {
+        "id": 21,
+        "nombre": "Fundamental value-added synergy",
+        "precio": 3457,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "stock": 91,
+        "category": "coleccionables"
+    },
+    {
+        "id": 22,
+        "nombre": "Operative solution-oriented methodology",
+        "precio": 3627,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        "stock": 48,
+        "category": "arte"
+    },
+    {
+        "id": 23,
+        "nombre": "Re-contextualized 6th generation circuit",
+        "precio": 4871,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec pharetra, magna vestibulum aliquet ultrices, erat tortor sollicitudin mi, sit amet lobortis sapien sapien non mi. Integer ac neque.",
+        "stock": 95,
+        "category": "accesorios"
+    },
+    {
+        "id": 24,
+        "nombre": "Ergonomic asynchronous software",
+        "precio": 2778,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros. Suspendisse accumsan tortor quis turpis.",
+        "stock": 93,
+        "category": "coleccionables"
+    },
+    {
+        "id": 25,
+        "nombre": "Vision-oriented mission-critical approach",
+        "precio": 8812,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+        "stock": 71,
+        "category": "arte"
+    },
+    {
+        "id": 26,
+        "nombre": "Multi-channelled foreground core",
+        "precio": 8230,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Suspendisse potenti. In eleifend quam a odio. In hac habitasse platea dictumst.",
+        "stock": 53,
+        "category": "coleccionables"
+    },
+    {
+        "id": 27,
+        "nombre": "Configurable secondary implementation",
+        "precio": 5758,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Proin interdum mauris non ligula pellentesque ultrices. Phasellus id sapien in sapien iaculis congue. Vivamus metus arcu, adipiscing molestie, hendrerit at, vulputate vitae, nisl.",
+        "stock": 36,
+        "category": "ropa"
+    },
+    {
+        "id": 28,
+        "nombre": "Decentralized eco-centric complexity",
+        "precio": 6201,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Praesent blandit. Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede.",
+        "stock": 65,
+        "category": "coleccionables"
+    },
+    {
+        "id": 29,
+        "nombre": "Ergonomic empowering definition",
+        "precio": 8852,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Aenean fermentum. Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.",
+        "stock": 81,
+        "category": "accesorios"
+    },
+    {
+        "id": 30,
+        "nombre": "Phased 24/7 architecture",
+        "precio": 3760,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.",
+        "stock": 44,
+        "category": "accesorios"
+    },
+    {
+        "id": 31,
+        "nombre": "Stand-alone system-worthy help-desk",
+        "precio": 2296,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+        "stock": 76,
+        "category": "arte"
+    },
+    {
+        "id": 32,
+        "nombre": "Polarised client-server conglomeration",
+        "precio": 6147,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+        "stock": 46,
+        "category": "coleccionables"
+    },
+    {
+        "id": 33,
+        "nombre": "Multi-lateral user-facing array",
+        "precio": 7205,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit. Vivamus vel nulla eget eros elementum pellentesque.",
+        "stock": 37,
+        "category": "arte"
+    },
+    {
+        "id": 34,
+        "nombre": "Organized bandwidth-monitored forecast",
+        "precio": 5051,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Proin eu mi. Nulla ac enim. In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem.",
+        "stock": 51,
+        "category": "accesorios"
+    },
+    {
+        "id": 35,
+        "nombre": "Organic hybrid leverage",
+        "precio": 6545,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit.",
+        "stock": 85,
+        "category": "coleccionables"
+    },
+    {
+        "id": 36,
+        "nombre": "Profit-focused impactful concept",
+        "precio": 3125,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Nullam porttitor lacus at turpis. Donec posuere metus vitae ipsum. Aliquam non mauris.",
+        "stock": 25,
+        "category": "coleccionables"
+    },
+    {
+        "id": 37,
+        "nombre": "Synchronised reciprocal complexity",
+        "precio": 1096,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Duis bibendum. Morbi non quam nec dui luctus rutrum. Nulla tellus.",
+        "stock": 98,
+        "category": "accesorios"
+    },
+    {
+        "id": 38,
+        "nombre": "Multi-channelled transitional protocol",
+        "precio": 4601,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.",
+        "stock": 18,
+        "category": "ropa"
+    },
+    {
+        "id": 39,
+        "nombre": "Triple-buffered fresh-thinking knowledge user",
+        "precio": 4759,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "stock": 3,
+        "category": "coleccionables"
+    },
+    {
+        "id": 40,
+        "nombre": "Balanced responsive knowledge base",
+        "precio": 1802,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "In congue. Etiam justo. Etiam pretium iaculis justo.",
+        "stock": 26,
+        "category": "arte"
+    },
+    {
+        "id": 41,
+        "nombre": "Implemented bifurcated contingency",
+        "precio": 656,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Phasellus in felis. Donec semper sapien a libero. Nam dui.",
+        "stock": 22,
+        "category": "coleccionables"
+    },
+    {
+        "id": 42,
+        "nombre": "Networked didactic ability",
+        "precio": 3584,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.",
+        "stock": 9,
+        "category": "ropa"
+    },
+    {
+        "id": 43,
+        "nombre": "Customizable interactive architecture",
+        "precio": 5880,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla. Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.",
+        "stock": 39,
+        "category": "ropa"
+    },
+    {
+        "id": 44,
+        "nombre": "Reduced demand-driven benchmark",
+        "precio": 9431,
+        "img": "http://dummyimage.com/200x200.png/5fa2dd/ffffff",
+        "descripcion": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "stock": 41,
+        "category": "coleccionables"
+    },
+    {
+        "id": 45,
+        "nombre": "Proactive 5th generation structure",
+        "precio": 9028,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Sed ante. Vivamus tortor. Duis mattis egestas metus.",
+        "stock": 4,
+        "category": "accesorios"
+    },
+    {
+        "id": 46,
+        "nombre": "Mandatory interactive hardware",
+        "precio": 9679,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "In quis justo. Maecenas rhoncus aliquam lacus. Morbi quis tortor id nulla ultrices aliquet.",
+        "stock": 58,
+        "category": "ropa"
+    },
+    {
+        "id": 47,
+        "nombre": "Vision-oriented bifurcated function",
+        "precio": 3205,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+        "stock": 66,
+        "category": "coleccionables"
+    },
+    {
+        "id": 48,
+        "nombre": "Seamless intermediate solution",
+        "precio": 7439,
+        "img": "http://dummyimage.com/200x200.png/cc0000/ffffff",
+        "descripcion": "Nullam sit amet turpis elementum ligula vehicula consequat. Morbi a ipsum. Integer a nibh.",
+        "stock": 67,
+        "category": "ropa"
+    },
+    {
+        "id": 49,
+        "nombre": "Organic composite conglomeration",
+        "precio": 2489,
+        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
+        "descripcion": "Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.",
+        "stock": 89,
+        "category": "accesorios"
+    },
+    {
+        "id": 50,
+        "nombre": "Adaptive human-resource hardware",
+        "precio": 800,
+        "img": "http://dummyimage.com/200x200.png/dddddd/000000",
+        "descripcion": "Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+        "stock": 73,
+        "category": "arte"
+    }
+]

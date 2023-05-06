@@ -17,50 +17,25 @@ export const NavBar = () => {
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Ropa
+                                    Tienda
                                 </a>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Camisetas</a></li>
-                                    <li><a className="dropdown-item" href="#">Parte inferior</a></li>
-                                    <li><a className="dropdown-item" href="#">Sudaderas y chaquetas</a></li>
-                                    <li><a className="dropdown-item" href="#">De estar por casa</a></li>
-                                    <li><a className="dropdown-item" href="#">Sombreros y gorros</a></li>
-                                    <li><a className="dropdown-item" href="#">Joyerias</a></li>
+                                    <li><a className="dropdown-item" href="#">Ropa</a></li>
+                                    <li><a className="dropdown-item" href="#">Coleccionables</a></li>
+                                    <li><a className="dropdown-item" href="#">Arte</a></li>
+                                    <li><a className="dropdown-item" href="#">Accesorios</a></li>
                                 </ul>
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Coleccionables
+                            <li className="nav-item">
+                                <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Nosotros
                                 </a>
-                                <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Figuras</a></li>
-                                    <li><a className="dropdown-item" href="#">Estatuillas</a></li>
-                                    <li><a className="dropdown-item" href="#">Pines</a></li>
-                                    <li><a className="dropdown-item" href="#">Peluches</a></li>
-                                    <li><a className="dropdown-item" href="#">Juegos de mesa</a></li>
-                                </ul>
+                                
                             </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Arte
+                            <li className="nav-item">
+                                <a className="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Contacto
                                 </a>
-                                <ul class="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Pósteres</a></li>
-                                    <li><a className="dropdown-item" href="#">Cómics y libros</a></li>
-                                    <li><a className="dropdown-item" href="#">Ilustraciones</a></li>
-                                </ul>
-                            </li>
-                            <li className="nav-item dropdown">
-                                <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Accesorios
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Sombreros y gorros</a></li>
-                                    <li><a className="dropdown-item" href="#">Joyería</a></li>
-                                    <li><a className="dropdown-item" href="#">Tazas</a></li>
-                                    <li><a className="dropdown-item" href="#">Alfombrillas para ratón</a></li>
-                                    <li><a className="dropdown-item" href="#">Otros</a></li>
-                                </ul>
                             </li>
                             
                             
