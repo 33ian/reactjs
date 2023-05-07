@@ -1,0 +1,15 @@
+.detalles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.detalles p{
+    width: 50vh;
+    height: 500px;
+    font-size: 1.4rem;
+    text-align: end;
+}
+
+h3{
+    width: 500px;
+}

@@ -1,12 +1,12 @@
 [
     {
         "id": 1,
-        "nombre": "Fundamental interactive structure",
-        "precio": 2613,
-        "img": "http://dummyimage.com/200x200.png/ff4444/ffffff",
-        "descripcion": "Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo. Maecenas pulvinar lobortis est.",
+        "nombre": "Figura de Gwen de Infinity Studio a escala 1/6",
+        "precio": 439.99,
+        "img": "https://images.contentstack.io/v3/assets/blt5bbf09732528de36/bltd9c464a1020a6b65/642f24af3af6ec10ceac06e8/InfinityGwen_Front_Shot_Thumb_1.png",
+        "descripcion": "Dándole un nuevo significado a la frase 'hecha de tela de otro costal', Gwen era una muñeca a la que la magia confirió vida. Gracias a esto, Gwen puede controlar la Niebla consagrada, un poder ancestral que imbuye sus características armas, las peligrosísimas tijeras, las agujas y el hilo de coser. Con una escala 1/6, la figura recoge de forma detallada los rasgos de Gwen, desde sus rizos a las ondas de su vestido, pasando por ese brillo translúcido y etéreo de sus famosas tijeras.",
         "stock": 45,
-        "category": "ropa"
+        "category": "Coleccionables"
     },
     {
         "id": 2,

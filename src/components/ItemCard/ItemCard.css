@@ -1,0 +1,20 @@
+.tarjeta-producto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    height: 300px;
+}
+
+h3{
+    font-size: 0.8rem;
+    width: 200px;
+    text-align: center;
+    
+}
+
+.tarjeta-producto img{
+    width: 200px;
+    height: auto;
+}

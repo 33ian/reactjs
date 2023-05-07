@@ -1,0 +1,11 @@
+
+
+
+.detalle-item{
+    display: flex;
+}
+
+.detalle-item img{
+    width: 500px;
+    height: auto;
+}
