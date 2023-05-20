@@ -9,7 +9,7 @@ const ItemCard = ({item}) => {
             <h3>{item.nombre}</h3>
             <Link to={`/detail/${item.id}`}> <img src={item.img} alt={item.nombre}/></Link>
             <p><strong>Precio: €{item.precio}</strong></p>
-            
+            {item.stock <= 10 && <p style={{background: 'red'}}>Ultimas</p>}
         </div>
     )
 }
