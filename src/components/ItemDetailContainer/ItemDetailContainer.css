@@ -3,6 +3,8 @@
 
 .detalle-item{
     display: flex;
+    justify-content: center;
+    
 }
 
 .detalle-item img{

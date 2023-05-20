@@ -1,5 +1,5 @@
 import "./ItemListContainer.css"
-import { useEffect } from 'react'
+import { useContext, useEffect } from 'react'
 import { useState } from 'react'
 import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemList from '../ItemList/ItemList'
@@ -13,6 +13,7 @@ export const ItemListContainer = ({oferta}) =>{
     const search = searchParams.get('search')
 
     const { categoryId } = useParams()
+    
 
     useEffect(() => {
         setLoading(true)
@@ -33,7 +34,6 @@ export const ItemListContainer = ({oferta}) =>{
     ? productos.filter((el) => el.nombre.toLowerCase().includes(search.toLowerCase())) 
     : productos
 
-console.log(listado)
 
     return(
         <div className="contenedor-items">

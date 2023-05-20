@@ -3,6 +3,9 @@
     flex-direction: row;
     justify-content: space-between;
 }
+
+
+
 .detalles p{
     width: 50vh;
     height: 500px;

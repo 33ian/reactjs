@@ -1,7 +1,6 @@
-.carrito{
-    width: 50px;
+.lista{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    flex-direction: row;
 }
