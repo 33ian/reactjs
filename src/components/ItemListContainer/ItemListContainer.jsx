@@ -1,39 +1,40 @@
 import "./ItemListContainer.css"
-import { useContext, useEffect } from 'react'
+import { useEffect } from 'react'
 import { useState } from 'react'
-import { pedirDatos } from '../../helpers/pedirDatos'
 import ItemList from '../ItemList/ItemList'
-import { useParams, useSearchParams } from 'react-router-dom'
+import { useParams,} from 'react-router-dom'
+import { collection, getDocs, query, where } from "firebase/firestore"
+import { db } from "../../firebase/config"
 export const ItemListContainer = ({oferta}) =>{
 
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
-    const [searchParams] = useSearchParams()
-
-    const search = searchParams.get('search')
 
     const { categoryId } = useParams()
-    
 
     useEffect(() => {
         setLoading(true)
 
-        pedirDatos()
-            .then((data) => {
-                if (!categoryId) {
-                    setProductos(data)
-                } else {
-                    setProductos( data.filter((el) => el.category === categoryId) )
-                }
+        const productosRef = collection(db, "productos" )
+        const q = categoryId
+                    ? query(productosRef, where("category", "==", categoryId))
+                    : productosRef
+
+        getDocs(q)
+            .then((res)=> {
+                const docs = res.docs.map((doc)=> {
+                    return {
+                        ...doc.data(),
+                        id: doc.id
+                    }
+                })
+                
+                setProductos(docs)
             })
-            .catch((err) => console.log(err))
-            .finally(() => setLoading(false))
+        .catch(e => console.log(e))
+        .finally(()=> setLoading(false))
+
     }, [categoryId])
-
-    const listado = search
-    ? productos.filter((el) => el.nombre.toLowerCase().includes(search.toLowerCase())) 
-    : productos
-
 
     return(
         <div className="contenedor-items">
@@ -43,7 +44,7 @@ export const ItemListContainer = ({oferta}) =>{
             {
                 loading
                     ? <h2>Cargando...</h2>
-                    : <ItemList items={listado}/>
+                    : <ItemList items={productos}/>
             }
         </div>
     )
