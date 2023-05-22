@@ -11,7 +11,6 @@ const Contacto = ({productos, loading}) => {
     })
 
     const handleInputChange = (e) => {
-        console.log(e.target.name)
 
         setValues({
             ...values,
@@ -21,7 +20,7 @@ const Contacto = ({productos, loading}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log("submit")
+        console.log("Enviado")
         console.log(values)
     }
 

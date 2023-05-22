@@ -1,7 +1,14 @@
 import { Link } from "react-router-dom"
 import { CartWidget } from "../CartWidget/CartWidget"
 import "./NavBar.css"
+import { useContext } from "react"
+import { AuthContext } from "../../context/AuthContext"
+
+
+
 export const NavBar = () => {
+
+    const {user, logout} = useContext(AuthContext)
 
     return (
         <header>
@@ -45,6 +52,10 @@ export const NavBar = () => {
                         
                     </div>
                     <CartWidget />
+                </div>
+                <div className="container">
+                    <p>Bienvenido {user.email}</p>
+                    <button className="btn btn-danger" onClick={logout}>Logout</button>
                 </div>
             </nav>
         </header>
