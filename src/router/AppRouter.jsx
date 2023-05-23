@@ -9,6 +9,7 @@ import Contacto from "../hoc/Contacto"
 import Nosotros from "../hoc/Nosotros"
 import { useContext } from "react"
 import { AuthContext } from "../context/AuthContext"
+import Checkout from "../components/Checkout/Checkout"
 
 
 const AppRouter = () => {
@@ -28,6 +29,7 @@ const AppRouter = () => {
                             <Route path='/cart' element={<Cart />} ></Route>
                             <Route path='/nosotros' element={<Nosotros />} />
                             <Route path='/contacto' element={<Contacto />} />
+                            <Route path='/checkout' element={<Checkout /> }/>
                             <Route path='*' element={<Navigate to={"/"} />} />
                         </Routes>
                     </>
