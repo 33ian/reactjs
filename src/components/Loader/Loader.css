@@ -1,0 +1,11 @@
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.151);
+    color: white;
+    font-size: 40px;
+}
