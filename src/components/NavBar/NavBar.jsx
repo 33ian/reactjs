@@ -53,7 +53,7 @@ export const NavBar = () => {
                     </div>
                     
                 </div>
-                <div className="container ">
+                <div className="bar">
                     <p>Bienvenido {user.email}</p>
                     <CartWidget />
                     <button className="btn btn-danger log" onClick={logout}>Logout</button>

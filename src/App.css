@@ -3,3 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+@import url(//db.onlinewebfonts.com/c/bb90ba117857b5f877748ed36ac1b9de?family=Recta);
+
+@font-face {font-family: "Recta"; src: url("db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.eot"); src: url("db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.woff") format("woff"), url("//db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/bb90ba117857b5f877748ed36ac1b9de.svg#Recta") format("svg"); }

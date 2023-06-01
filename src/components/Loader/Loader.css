@@ -1,4 +1,4 @@
-.loader{
+/* .loader{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,4 +8,17 @@
     background-color: rgba(0, 0, 0, 0.151);
     color: white;
     font-size: 40px;
+} */
+
+.loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.spinner-border{
+    width: 3rem;
+    height: 3rem;
 }

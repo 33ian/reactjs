@@ -15,14 +15,28 @@
 }
 
 .tarjeta-producto:hover{
-    scale:1.1;
+    scale:1.05;
 }
 
 .precio{
     color: gray;
 }
 
+.tarjeta-sinstock{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.0rem;
+    height: 300px;
+    
+    opacity: 0.5;
+}
 
+.tarjeta-sinstock img{
+    width: 200px;
+    height: auto;
+}
 
 
 h3{
