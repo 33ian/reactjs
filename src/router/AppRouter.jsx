@@ -10,6 +10,7 @@ import Nosotros from "../hoc/Nosotros"
 import { useContext } from "react"
 import { AuthContext } from "../context/AuthContext"
 import Checkout from "../components/Checkout/Checkout"
+import Footer from "../components/Footer/Footer"
 
 
 const AppRouter = () => {
@@ -31,7 +32,9 @@ const AppRouter = () => {
                             <Route path='/contacto' element={<Contacto />} />
                             <Route path='/checkout' element={<Checkout /> }/>
                             <Route path='*' element={<Navigate to={"/"} />} />
+                            
                         </Routes>
+                        <Footer />
                     </>
                     :
                     <Routes>

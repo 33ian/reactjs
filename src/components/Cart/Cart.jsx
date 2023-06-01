@@ -4,14 +4,13 @@ import { Link } from "react-router-dom"
 import "./Cart.css"
 
 const Cart = () => {
-    const {cart, emptyCart, totalCompra, removeItem} = useContext(CartContext)
+    const {cart, emptyCart, totalCompra, removeItem, totalCantidad} = useContext(CartContext)
 
     if (cart.length === 0) {
         return(
                 <div className=" container my-5">
-                    <h2>Tu carrito está vacío</h2>
+                    <h2>Carrito actualmente vacio</h2>
                     <hr/>
-                    <p>Andá a comprar algo</p>
                     <Link to="/" className="btn btn-primary">Tienda</Link>
                 </div>)
     }

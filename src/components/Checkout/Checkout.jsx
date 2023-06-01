@@ -6,6 +6,8 @@ import { collection, addDoc, writeBatch, getDocs, query, where, documentId } fro
 import { db } from "../../firebase/config"
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import * as Yup from 'yup'
+import Swal from 'sweetalert2'
+
 
 
 const schema = Yup.object().shape({
@@ -76,22 +78,28 @@ const Checkout = () => {
                 })
 
         } else {
-            console.log(outOfStock)
-            alert("Hay items sin stock")
-            setLoading(false)
+                Swal.fire({
+                icon: 'error',
+                title: '¡Hay items sin stock!',
+                text: 'Vuelve mas tarde',
+                timer: 3000,
+                timerProgressBar: true
+
+                
+                })
+                setLoading(false)
+            
+            
         }
     }
 
     if (orderId) {
-        return (
-            <div className="container my-5">
-                <h2>Tu compra se registro exitosamente!</h2>
-                <hr />
-                <p>Guarda tu numero de orden: {orderId}</p>
-
-                <Link to="/" className="btn btn-primary">Volver</Link>
-            </div>
-        )
+        Swal.fire({
+            icon: 'success',
+            title: '¡Tu compra se registró exitosamente!',
+            text: `Guarda tu número de orden: ${orderId}`,
+            
+            })
     }
 
     if (cart.length === 0) {

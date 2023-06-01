@@ -51,11 +51,12 @@ export const NavBar = () => {
                         </ul>
                         
                     </div>
-                    <CartWidget />
+                    
                 </div>
-                <div className="container">
+                <div className="container ">
                     <p>Bienvenido {user.email}</p>
-                    <button className="btn btn-danger" onClick={logout}>Logout</button>
+                    <CartWidget />
+                    <button className="btn btn-danger log" onClick={logout}>Logout</button>
                 </div>
             </nav>
         </header>

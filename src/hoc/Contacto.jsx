@@ -1,5 +1,7 @@
 import { withProductsData } from "./withProductsData"
 import { useState } from "react"
+import Swal from 'sweetalert2'
+import './default.css'
 
 
 const Contacto = ({productos, loading}) => {
@@ -20,8 +22,16 @@ const Contacto = ({productos, loading}) => {
 
     const handleSubmit = (e) => {
         e.preventDefault()
-        console.log("Enviado")
-        console.log(values)
+        Swal.fire({
+            timer: 1000,
+            timerProgressBar: true,
+            showCloseButton: false,
+            showCancelButton: false,
+            showConfirmButton: false,
+            title: 'Enviado correctamente',
+            
+            
+            })
     }
 
     return (
@@ -31,8 +41,10 @@ const Contacto = ({productos, loading}) => {
 
             <form onSubmit={handleSubmit}>
                 <input name="nombre" className="form-control my-2" type="text" placeholder="Nombre" value={values.nombre} onChange={handleInputChange}></input>
-                <input name="direccion" className="form-control my-2" type="text" placeholder="Direccion" value={values.direccion} onChange={handleInputChange}></input>
                 <input name="email" className="form-control my-2" type="text" placeholder="Email" value={values.email} onChange={handleInputChange}></input>
+                <hr />
+                <input type="text" className="form-control my-2" placeholder="Dejanos tu sugerencia aca!" />
+                
                 <button className="btn btn-primary" type="submit">Enviar</button>
             </form>
         </div>

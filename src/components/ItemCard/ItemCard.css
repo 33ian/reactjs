@@ -8,9 +8,22 @@
     transition-duration: 300ms;
 }
 
-.tarjeta-producto:hover{
-    scale:1.1
+.ultimas{
+    padding: 0px 4px 0px 4px;
+    background-color: #cd3d35;
+    color: white;
 }
+
+.tarjeta-producto:hover{
+    scale:1.1;
+}
+
+.precio{
+    color: gray;
+}
+
+
+
 
 h3{
     font-size: 0.8rem;
